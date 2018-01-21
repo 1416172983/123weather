@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 移动端布局加视口标签 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<title>天气APP</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery3.2.1.min.js"></script>
+	<script src="js/rem.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+    <!-- 当前天气情况开始 -->
+	<div class="first">
+		<div class="pos">太原</div>
+		<div class="air">
+			<h4>空气</h4>
+			<h5></h5>
+		</div>
+		<div class="title1"></div>
+		<div class="title2"></div>
+		<div class="title3">
+			<span class="wind_der"></span>
+			<span class="wet wind_level"></span>
+		<div class="title4">厉害了，这天气！</div>
+		</div>
+	</div>
+	<!-- 当前天气情况结束 -->
+
+	<!-- 今天和明天天气情况开始 -->
+	<div class="second">
+		<div class="today">
+			<div class="top">
+				<div class="todayText">今天</div>
+				<div class="tem">
+					<span class="heighter"></span>/
+					<span class="lower"></span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con"></div>
+				<div class="conPic"></div>
+			</div>
+		</div>
+		<div class="tomorrow">
+			<div class="top">
+				<div class="tomorrowText">明天</div>
+				<div class="tem">
+					<span class="heighter heighter1"></span>/
+					<span class="lower lower1"></span>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="con tcon"></div>
+				<div class="conPic tomorrow_icon"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 今天和明天天气情况结束 -->
+	<!-- 24小时天气预报开始 -->
+	<div class="third">
+		<div class="wrap">
+			<div class="box">
+				<div class="time">
+					<span>12</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">1°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>13</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">2°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>14</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">3°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>15</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">1°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>16</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-1°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>17</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-2°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>18</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-4°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>19</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-8°</div>
+			</div>
+			<div class="box">
+				<div class="time">
+					<span>20</span>
+					<span>:00</span>
+				</div>
+				<div class="icon"></div>
+				<div class="timeTem">-4°</div>
+			</div>
+		</div>
+	</div>
+	<!-- 24小时天气预报开始 -->
+	<!-- 折线图开始 -->
+	<div class="forth">
+		<div class="warp wrap1">
+		</div>
+	</div>
+	<div class="fifth">
+		<div class="wrap">
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			<div class="box">
+				<div class="tubiao"></div>
+				<div class="tixing">不带伞</div>
+				<div class="wuping">雨伞</div>
+			</div>
+			
+		</div>
+	</div>
+    <!-- 未来七天天气预报结束 -->
+    <!-- 城市搜索开始 -->
+    <div class="city">
+    	<div class="search">
+    		<input type="text" class="searchBox" placeholder="请输入要搜索的城市名称">
+    		<div class="button">取消</div>
+    	</div>
+    	<div class="citys">
+    	    <div class="title1">热门城市</div>
+    	    <div class="con">
+    			<div class="box">北京</div>
+    			<div class="box">广州</div>
+    			<div class="box">上海</div>
+    			<div class="box">郑州</div>
+    		</div>
+    	</div>	
+    </div>
+<!-- 城市搜索结束 -->
+</body>
+</html>
